@@ -17,7 +17,7 @@ type DatasetModule = {
 }
 
 const datasetModules = import.meta.glob<DatasetModule>(
-  '../../../research/round2-merged-official-data.json',
+  './round2-merged-official-data.json',
   { eager: true },
 )
 
