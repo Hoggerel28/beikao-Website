@@ -237,6 +237,56 @@ function createOffering(rawSchool: RawSchool, rawUnit: RawSchool['units'][number
   } satisfies Offering
 }
 
+function examSubjectInheritanceKey(rawUnit: RawSchool['units'][number]) {
+  const normalizedUnitName = rawUnit.name
+    .replace(/^\d+\s*/, '')
+    .replace(/[（）()、，,：:\s]/g, '')
+
+  return `${normalizedUnitName}::${rawUnit.programCode}`
+}
+
+function inheritExamSubjectData(
+  rawUnit: RawSchool['units'][number],
+  rawUnits: RawSchool['units'],
+) {
+  if (rawUnit.examSubjects.length > 0) return rawUnit
+
+  const key = examSubjectInheritanceKey(rawUnit)
+  const candidates = rawUnits.filter(
+    (candidate) =>
+      candidate.examSubjects.length > 0 &&
+      examSubjectInheritanceKey(candidate) === key,
+  )
+  const subjectSets = new Map(
+    candidates.map((candidate) => [
+      JSON.stringify(candidate.examSubjects),
+      candidate.examSubjects,
+    ]),
+  )
+
+  if (subjectSets.size !== 1) return rawUnit
+
+  const inheritedSubjects = Array.from(subjectSets.values())[0]
+  const inheritedCatalogSources = candidates.flatMap((candidate) =>
+    candidate.sources.filter(
+      (source) => source.type === 'catalog' && source.official,
+    ),
+  )
+  const sourceMap = new Map(
+    [...rawUnit.sources, ...inheritedCatalogSources].map((source) => [
+      `${source.url}::${source.type}`,
+      source,
+    ]),
+  )
+
+  return {
+    ...rawUnit,
+    examSubjects: inheritedSubjects,
+    is11408: isStrict11408(inheritedSubjects, rawUnit.is11408),
+    sources: Array.from(sourceMap.values()),
+  }
+}
+
 function sortOfferings(offerings: Offering[]) {
   return offerings.sort((left, right) => {
     if (left.programCode !== right.programCode) {
@@ -331,9 +381,11 @@ function mergeOfferings(left: Offering, right: Offering): Offering {
 
 function normalizeSchool(rawSchool: RawSchool, datasetKey: string) {
   const unitMap = new Map<string, UnitGroup>()
+  const professionalUnits = rawSchool.units.filter(isProfessionalMaster)
 
-  for (const rawUnit of rawSchool.units.filter(isProfessionalMaster)) {
-    const offering = createOffering(rawSchool, rawUnit, datasetKey)
+  for (const rawUnit of professionalUnits) {
+    const enrichedRawUnit = inheritExamSubjectData(rawUnit, professionalUnits)
+    const offering = createOffering(rawSchool, enrichedRawUnit, datasetKey)
     const existing = unitMap.get(offering.unitId)
 
     if (existing) {

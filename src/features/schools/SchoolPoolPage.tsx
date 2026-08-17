@@ -608,9 +608,13 @@ export function SchoolPoolPage({ data }: SchoolPoolPageProps) {
                     />
                   </div>
                   <ol className="bullet-list">
-                    {selectedOffering.examSubjects.map((subject) => (
-                      <li key={subject}>{subject}</li>
-                    ))}
+                    {selectedOffering.examSubjects.length > 0 ? (
+                      selectedOffering.examSubjects.map((subject) => (
+                        <li key={subject}>{subject}</li>
+                      ))
+                    ) : (
+                      <li>待核验</li>
+                    )}
                   </ol>
                 </article>
 
