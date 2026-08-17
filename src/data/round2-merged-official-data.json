@@ -8250,12 +8250,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8337,12 +8337,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8424,12 +8424,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8511,12 +8511,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8598,12 +8598,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8685,12 +8685,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业理论笔试（计算机系统结构、数据库系统原理、算法设计与分析三选二）+90分钟C/C++上机+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8787,12 +8787,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业理论笔试（计算机系统结构、数据库系统原理、算法设计与分析三选二）+90分钟C/C++上机+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "25000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8874,12 +8874,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业技能/机试、专业理论笔试、外语听说和综合面试；085412方向机试20%、笔试30%、外语20%、综合面试30%；综合成绩按初试60%+复试40%计算。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -8976,12 +8976,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业技能/机试、专业理论笔试、外语听说和综合面试；085412方向机试20%、笔试30%、外语20%、综合面试30%；综合成绩按初试60%+复试40%计算。"
           },
-          "tuition": null,
+          "tuition": "25000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9063,12 +9063,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2.5小时闭卷机试（C/C++、算法、数据库、人工智能、软件工程、操作系统）+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "35000元/年（105000元/全程）",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9165,12 +9165,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2.5小时闭卷机试（C/C++、算法、数据库、人工智能、软件工程、操作系统）+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "40000元/年（120000元/全程）",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9259,12 +9259,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业理论笔试（微机原理和C语言）+外语听说+综合面试；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "13000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9393,12 +9393,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业理论笔试（计算机系统结构、数据库系统原理、算法设计与分析三选二）+90分钟C/C++上机+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "全日制13000元/年；非全日制25000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9499,12 +9499,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "专业技能/机试、专业理论笔试、外语听说和综合面试；085412方向机试20%、笔试30%、外语20%、综合面试30%；综合成绩按初试60%+复试40%计算。"
           },
-          "tuition": null,
+          "tuition": "全日制13000元/年；非全日制25000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -9605,12 +9605,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2.5小时闭卷机试（C/C++、算法、数据库、人工智能、软件工程、操作系统）+综合面试+外语听说；综合成绩按初试60%+复试40%计算，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "全日制35000元/年（105000元/全程）；非全日制40000元/年（120000元/全程）",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12724,12 +12724,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": false,
             "content": "笔试150分；面试150分，其中英语听说30、专业基础40、工程实践能力40、综合素质40；总成绩公式：复试成绩=笔试成绩×50%+面试成绩×50%；综合成绩=初试总成绩(按满分150分折算)×60%+复试成绩×40%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12900,12 +12900,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": false,
             "content": "笔试150分；面试150分，其中英语听说30、专业基础40、工程实践能力40、综合素质40；总成绩公式：复试成绩=笔试成绩×50%+面试成绩×50%；综合成绩=初试总成绩(按满分150分折算)×60%+复试成绩×40%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13064,12 +13064,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "01（全日制）、02（全日制）、03（全日制）方向：复试科目：①553C++程序设计<br>04（全日制）方向：复试科目：①5c5自动控制原理<br>"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13159,12 +13159,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "01（全日制）、02（全日制）、03（全日制）方向：复试科目：①553C++程序设计<br>04（全日制）方向：复试科目：①5c5自动控制原理<br>"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13258,12 +13258,12 @@
           "unifiedExamQuota": 16,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": false,
             "content": "01（全日制）方向：复试科目：①542基础生物学<br>02（全日制）方向：复试科目：①5c5自动控制原理(现代部分)<br>"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13426,12 +13426,12 @@
           "unifiedExamQuota": 31,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": false,
             "content": "01（全日制）方向：复试科目：①542基础生物学<br>02（全日制）方向：复试科目：①5c5自动控制原理(现代部分)<br>"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13590,12 +13590,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "01（全日制）方向：复试科目：①553C++程序设计<br>02（全日制）方向：复试科目：①544信息安全<br>"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "南京、无锡",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13684,12 +13684,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "01（全日制）方向：复试科目：①553C++程序设计<br>02（全日制）方向：复试科目：①544信息安全<br>"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "南京、无锡",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13800,12 +13800,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "复试科目：①553C++程序设计"
           },
-          "tuition": null,
+          "tuition": "40000元/全程（3年）",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -13987,12 +13987,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "复试科目：①553C++程序设计"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14139,12 +14139,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "复试科目：①553C++程序设计"
           },
-          "tuition": null,
+          "tuition": "62000元/年",
           "accommodation": "苏州",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14269,12 +14269,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": true,
             "content": "01（全日制）方向：复试科目：①553C++程序设计<br>"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "南京、无锡",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14417,12 +14417,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 40,
             "ratio": null,
             "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "content": "专业笔试+综合面试（含英语听说、专业基础和工程实践/综合素质）；复试成绩=笔试×50%+面试×50%；综合成绩=初试折算成绩×60%+复试成绩×40%，笔试或面试低于合格线不予录取。"
           },
-          "tuition": null,
+          "tuition": "45000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17246,12 +17246,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2小时ACM模式编程技能测试（成绩不量化，作为面试参考）+综合面试；复试成绩=英语水平10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17432,12 +17432,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2小时ACM模式编程技能测试（成绩不量化，作为面试参考）+综合面试；复试成绩=英语水平10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17575,12 +17575,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2小时ACM模式编程技能测试（成绩不量化，作为面试参考）+综合面试；复试成绩=英语水平10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17721,12 +17721,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17914,12 +17914,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18070,12 +18070,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18189,12 +18189,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2小时ACM模式编程技能测试（成绩不量化，作为面试参考）+综合面试；复试成绩=英语水平10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18287,12 +18287,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": true,
+            "content": "2小时ACM模式编程技能测试（成绩不量化，作为面试参考）+综合面试；复试成绩=英语水平10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18379,12 +18379,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18471,12 +18471,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -18532,12 +18532,12 @@
           "unifiedExamQuota": null,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "思想政治考核+专业面试（外语听说、专业知识与综合素质）；复试成绩=外语听说10%+专业面试90%；入学总成绩按初试50%+复试50%计算。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
