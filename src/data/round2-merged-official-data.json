@@ -1560,10 +1560,10 @@
           "unifiedExamQuota": 56,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "英语听说、专业知识和综合能力面试；最终成绩=初试成绩（不计政治）÷4×50%+复试成绩×50%，复试低于60分不予录取。"
           },
           "tuition": "40000 元/全程",
           "accommodation": null,
@@ -1677,10 +1677,10 @@
           "unifiedExamQuota": 12,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "英语听说、专业知识和综合能力面试；最终成绩=初试成绩（不计政治）÷4×50%+复试成绩×50%，复试低于60分不予录取。"
           },
           "tuition": "40000 元/全程",
           "accommodation": null,
@@ -2796,7 +2796,7 @@
             "codingTest": true,
             "content": "形式：面试；机试：0；复试成绩：面试100分；总成绩公式：复试占比：50%，不计政治；总成绩计算：初试成绩（不计政治）/4*50%+复试成绩*50%"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -3145,7 +3145,7 @@
             "codingTest": true,
             "content": "形式：机试、面试；机试：100/225；复试成绩：机试100+专业面试100+外语面试25；总成绩公式：复试占比：225/725；总成绩计算：（初试成绩+复试成绩）/7.25"
           },
-          "tuition": null,
+          "tuition": "常规班60000元/全程；特色化创新试点班30000元/全程",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -3211,12 +3211,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "线下综合面试（英语听说、专业素质与综合能力）；最终成绩=初试成绩（不计政治、外语）÷3×50%+复试成绩×50%，复试低于60分不予录取。"
           },
-          "tuition": null,
+          "tuition": "8000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -10715,12 +10715,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "外语听力测试、外语口语测试、上机测试、综合面试；总成绩公式：最终成绩=初试总成绩×50%+复试成绩×5×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -10854,12 +10854,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "外语听力测试、外语口语测试、上机测试、综合面试；总成绩公式：最终成绩=初试总成绩×50%+复试成绩×5×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -10976,12 +10976,12 @@
           "unifiedExamQuota": 7,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：C/C++语言程序设计（上机） 面试内容：外语口语听力测试；计算机技术相关基础与专业知识 备注：含全日制异地科研联合培养2人。"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11105,12 +11105,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "外语听力测试、外语口语测试、上机测试、综合面试；总成绩公式：最终成绩=初试总成绩×50%+复试成绩×5×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11230,12 +11230,12 @@
           "unifiedExamQuota": 22,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：01、02方向：C/C++语言程序设计。 03方向：通信信号处理（含信号处理、通信原理）。 04方向：电子线路（含数电与模电两科内容）。 面试内容：01方向：外语口语听力测试；网络空间安全相关基础与专业知识。 02方向：外语口语听力测试；网络空间安全及密码学相关基础与专业知识。 03、04方向：外语口语听力测试；专业基础知识，综合能力考查。 备注：01、02方向考生须作答“网络与信息安全基础”（816）科目组合A:数据结构和计算机网络部分。 03、04方向考生须作答“网络与信息安全基础”（816）科目组合B:信号与系统和数字信号处理部分。"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11352,12 +11352,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：C/C++语言程序设计（上机）。 面试内容：外语口语听力测试；专业基础知识与实践能力综合测试。"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11461,12 +11461,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": false,
             "content": "外语听力10分、外语口语10分、专业知识笔试20分、综合面试60分；总成绩公式：总成绩=初试总成绩×50%+(复试成绩×5)×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11574,12 +11574,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": false,
             "content": "外语听力10分、外语口语10分、专业知识笔试20分、综合面试60分；总成绩公式：总成绩=初试总成绩×50%+(复试成绩×5)×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11687,12 +11687,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": false,
             "content": "外语听力10分、外语口语10分、专业知识笔试20分、综合面试60分；总成绩公式：总成绩=初试总成绩×50%+(复试成绩×5)×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11800,12 +11800,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": false,
             "content": "外语听力10分、外语口语10分、专业知识笔试20分、综合面试60分；总成绩公式：总成绩=初试总成绩×50%+(复试成绩×5)×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -11922,12 +11922,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：C/C++语言程序设计（上机考试）。 面试内容：外语口语听力测试；计算机技术相关基础与专业知识。 备注：含RISC-V班3人，海鸥班2人；总成绩公式：复试占比：50%；总成绩计算：初试成绩*50%+复试成绩*5*50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "珠海",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12013,12 +12013,12 @@
           "unifiedExamQuota": 4,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": false,
             "content": "笔试科目：电子技术（含模拟数字部分）（70%）+ 微机原理（30%）。 面试内容：外语口语听力测试；专业基础与专业知识、实践能力综合口试。 备注：含Risc-V班 3人。"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "珠海",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [],
@@ -12103,12 +12103,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "外语听力10%+口语10%；专业知识笔试/上机20%；综合能力面试60%；总成绩公式：最终成绩=初试总成绩×50%+复试成绩×5×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [],
@@ -12200,12 +12200,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "外语听力10%+口语10%；专业知识笔试/上机20%；综合能力面试60%；总成绩公式：最终成绩=初试总成绩×50%+复试成绩×5×50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [],
@@ -12285,12 +12285,12 @@
           "unifiedExamQuota": 3,
           "scoreHistory": [],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：选择业务课810的考生：电子 技术(含模拟数字部分)(70%)+微机原理(30%) 选择业务课408的考生：C/C++语言程序 设计(上机考试) 面试内容：外语口语听力测试；人工智能专业基础与专业知识、实践能力综合测试。 备注：01方向含Risc-V班 3人。 02方向含RISC-V班1人"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "珠海",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [],
@@ -12384,12 +12384,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "笔试科目：选择业务课810的考生：电子 技术(含模拟数字部分)(70%)+微机原理(30%) 选择业务课408的考生：C/C++语言程序 设计(上机考试) 面试内容：外语口语听力测试；人工智能专业基础与专业知识、实践能力综合测试。 备注：01方向含Risc-V班 3人。 02方向含RISC-V班1人；总成绩公式：复试占比：50%；总成绩计算：初试成绩*50%+复试成绩*5*50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": "珠海",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12479,12 +12479,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "形式：机试、面试；机试：20%；复试成绩：外语口语听力20+机试20+面试60；总成绩公式：复试占比：50%；总成绩计算：初试成绩*50%+复试成绩*5*50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12555,12 +12555,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "形式：机试、面试；机试：20%；复试成绩：外语口语听力20+机试20+面试60；总成绩公式：复试占比：50%；总成绩计算：初试成绩*50%+复试成绩*5*50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -12630,12 +12630,12 @@
             }
           ],
           "retest": {
-            "weight": null,
+            "weight": 50,
             "ratio": null,
             "codingTest": true,
             "content": "形式：机试、面试；机试：20%；复试成绩：外语口语听力20+机试20+面试60；总成绩公式：复试占比：50%；总成绩计算：初试成绩*50%+复试成绩*5*50%"
           },
-          "tuition": null,
+          "tuition": "10000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14490,7 +14490,7 @@
             "codingTest": true,
             "content": "复试科目：①008001程序设计（C语言）\n同等学力加试科目：①008002计算机网络，②008003计算机组成原理"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14612,7 +14612,7 @@
             "codingTest": true,
             "content": "复试科目：①008001程序设计（C语言）\n同等学力加试科目：①008002计算机网络，②008003计算机组成原理"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14837,7 +14837,7 @@
             "codingTest": true,
             "content": "复试科目：①009001程序设计（C语言）\n同等学力加试科目：①009002操作系统，②009003数据结构"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -14973,7 +14973,7 @@
             "codingTest": true,
             "content": "复试科目：①011003程序设计（C语言）\n同等学力加试科目：①011008操作系统，②011009数据结构"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15061,7 +15061,7 @@
             "codingTest": true,
             "content": "复试科目：①028004程序设计（C语言）\n同等学力加试科目：①028011计算机网络，②028012计算机组成原理"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15149,7 +15149,7 @@
             "codingTest": true,
             "content": "复试科目：①028004程序设计（C语言）\n同等学力加试科目：①028013操作系统，②028014数据结构"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15237,7 +15237,7 @@
             "codingTest": true,
             "content": "复试科目：①090001程序设计（C语言）\n同等学力加试科目：①090002计算机组成原理，②090003计算机网络"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15339,7 +15339,7 @@
             "codingTest": true,
             "content": "复试科目：①007001数字信号处理\n同等学力加试科目：①007003高级语言程序设计，②007005软件技术基础"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15428,7 +15428,7 @@
             "codingTest": false,
             "content": "复试科目：①010002数字逻辑设计\n同等学力加试科目：①010004模拟电路，②010005电磁场与波"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15508,10 +15508,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15604,10 +15604,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15700,10 +15700,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15804,10 +15804,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15887,10 +15887,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -15970,10 +15970,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16053,10 +16053,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16136,10 +16136,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16219,10 +16219,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16302,10 +16302,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16382,10 +16382,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16566,10 +16566,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16659,10 +16659,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16816,10 +16816,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16907,10 +16907,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -16980,10 +16980,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17053,10 +17053,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": "深圳",
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
@@ -17126,10 +17126,10 @@
           "retest": {
             "weight": null,
             "ratio": null,
-            "codingTest": null,
-            "content": "待当年官方复试细则核验"
+            "codingTest": false,
+            "content": "120分钟专业笔试（200分）+外语测试（100分，口语和听力）+综合考核（200分）；面试包含自我介绍、外语、专业知识和综合能力考查。"
           },
-          "tuition": null,
+          "tuition": "15000元/年",
           "accommodation": null,
           "employment": "就业与地域评价需结合个人偏好、实验室方向和当年就业质量报告单独核验。",
           "risks": [
