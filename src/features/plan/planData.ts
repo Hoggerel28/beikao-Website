@@ -239,7 +239,8 @@ export const subjectPlans: SubjectPlan[] = [
         hoursPerWeek: 25,
         entries: [
           entry('black', '啃书为主，视频课用来查缺补漏，每周专门抽一天复习其他的，不能一股脑学完一门忘了前面的内容。'),
-          entry('black', '看完对应章节课后写做课后选择题，每一个选项都必须搞懂，学有余力可开对应部分。'),
+          entry('black', '看完对应章节课后写做课后选择题，每一个选项都必须搞懂，学有余力可做1800。'),
+          entry('black', '最后几天可看基础强化的衔接课快速过一遍。'),
         ],
       },
       {
