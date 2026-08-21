@@ -164,7 +164,7 @@ export const subjectPlans: SubjectPlan[] = [
         dateRange: '5月开—做完',
         start: '2027-05-01',
         end: PLAN_END,
-        hoursPerDay: 1.5,
+        hoursPerDay: 1,
         entries: [
           entry('black', '一天一部精读+精翻（可先做英一再做英二）'),
           entry('black', '后日加入新题型训练'),
@@ -226,7 +226,6 @@ export const subjectPlans: SubjectPlan[] = [
     introEntries: [
       entry('blue', '定义→串联体系框架→形成自己做题模板'),
       entry('green', '4本王道讲义'),
-      entry('green', '国领1800'),
       entry('green', '真题（真题网）'),
     ],
     phases: [
@@ -235,12 +234,12 @@ export const subjectPlans: SubjectPlan[] = [
         title: '基础阶段',
         dateRange: '寒假开，平均一门一个月，4个月',
         start: '2027-02-15',
-        end: '2027-06-14',
+        end: '2027-06-30',
         hoursPerDay: 4,
         hoursPerWeek: 25,
         entries: [
-          entry('black', '啃书为主，视频课用来查缺补漏，铜钉抽一天复习其他的，不能一股脑学完一门忘了前面的内容。'),
-          entry('black', '看完对应章节课后写做课后选择题，每一个选项都必须搞懂，学有余力可开国领1800对应部分。'),
+          entry('black', '啃书为主，视频课用来查缺补漏，每周专门抽一天复习其他的，不能一股脑学完一门忘了前面的内容。'),
+          entry('black', '看完对应章节课后写做课后选择题，每一个选项都必须搞懂，学有余力可开对应部分。'),
         ],
       },
       {
@@ -308,8 +307,10 @@ export function phaseForDate(subject: SubjectPlan, date: string) {
 }
 
 export function durationForDate(subject: SubjectPlan, date: string) {
-  if (subject.id === 'english' && PLAN_START <= date && date <= PLAN_END) {
-    return 2
+  if (subject.id === 'english') {
+    return subject.phases
+      .filter((phase) => phase.start <= date && date <= phase.end)
+      .reduce((sum, phase) => sum + (phase.hoursPerDay ?? 0), 0)
   }
   return phaseForDate(subject, date)?.hoursPerDay ?? 0
 }
