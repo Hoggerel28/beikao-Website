@@ -28,4 +28,4 @@ export interface SubjectPlan {
   dailyRuleEntries?: PlanEntry[]
 }
 
-export type PlanTab = SubjectId | 'overview'
+export type PlanTab = SubjectId | 'overview' | 'competitions'

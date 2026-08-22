@@ -1592,6 +1592,139 @@ a:hover {
   font-weight: 700;
 }
 
+.competition-intro .plan-card__note {
+  margin: 8px 0 0;
+}
+
+.competition-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.competition-card {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-top: 4px solid #c57911;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.competition-card--high {
+  border-top-color: #d93b4e;
+}
+
+.competition-card__topline,
+.competition-card__title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.competition-card__rank {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background: #d93b4e;
+  font-weight: 800;
+}
+
+.competition-card--optional .competition-card__rank {
+  background: #c57911;
+}
+
+.competition-card__priority {
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: #a52a3a;
+  background: rgba(242, 67, 90, 0.12);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.competition-card--optional .competition-card__priority {
+  color: #8a5a00;
+  background: #fff4c7;
+}
+
+.competition-card__title h3 {
+  margin: 0 0 5px;
+  color: #0a6cc0;
+  font-size: 18px;
+}
+
+.competition-card__title p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.competition-card__score {
+  color: #d93b4e;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.competition-card__score span {
+  color: #dce3e6;
+}
+
+.competition-card__facts {
+  display: grid;
+  gap: 8px;
+}
+
+.competition-card__facts > div {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  line-height: 1.55;
+}
+
+.competition-card__facts span {
+  color: #2e8c47;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.competition-card__facts strong {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.competition-card__advice {
+  margin: 0;
+  padding: 10px 12px;
+  border-left: 3px solid #0d7f97;
+  color: #0d7f97;
+  background: rgba(56, 199, 231, 0.1);
+  line-height: 1.6;
+}
+
+.competition-card__advice span {
+  margin-right: 6px;
+  font-weight: 800;
+}
+
+.competition-card__source {
+  color: #0a6cc0;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.competition-card__source:hover {
+  text-decoration: underline;
+}
+
 .plan-hero__metric--date strong {
   color: #d93b4e;
 }
@@ -2243,8 +2376,13 @@ a:hover {
   .plan-card,
   .plan-table-card,
   .plan-hero,
-  .plan-stage-card {
+  .plan-stage-card,
+  .competition-card {
     padding: 14px;
+  }
+
+  .competition-grid {
+    grid-template-columns: 1fr;
   }
 }
 

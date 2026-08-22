@@ -283,6 +283,7 @@ export const subjectById = Object.fromEntries(
 export const planTabs = [
   ...subjectPlans.map((subject) => ({ id: subject.id, label: subject.label })),
   { id: 'overview' as const, label: '时间总览' },
+  { id: 'competitions' as const, label: '相关竞赛' },
 ]
 
 export function toDateKey(date: Date) {

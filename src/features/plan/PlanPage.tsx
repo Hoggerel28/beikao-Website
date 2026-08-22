@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { BookOpen, CalendarRange, Clock3, NotebookPen, ScrollText } from 'lucide-react'
+import { BookOpen, CalendarRange, Clock3, NotebookPen, ScrollText, Trophy } from 'lucide-react'
 import type { AdmissionsData } from '../../types/admissions'
 import { useAppStore } from '../../store/appStore'
 import {
@@ -11,6 +11,7 @@ import {
   totalDailyHours,
 } from './planData'
 import type { PlanEntry, PlanPhase, PlanTab, SubjectId, SubjectPlan } from './planTypes'
+import { competitionPlans } from './competitionData'
 
 interface PlanPageProps {
   data: AdmissionsData
@@ -22,6 +23,7 @@ const tabMeta: Array<{ id: PlanTab; label: string; icon: typeof BookOpen }> = [
   { id: 'politics', label: '政治规划', icon: NotebookPen },
   { id: 'cs', label: '408 规划', icon: BookOpen },
   { id: 'overview', label: '月度总览', icon: CalendarRange },
+  { id: 'competitions', label: '相关竞赛', icon: Trophy },
 ]
 
 const today = new Date().toISOString().slice(0, 10)
@@ -438,6 +440,56 @@ function OverviewView({
   )
 }
 
+function CompetitionView() {
+  return (
+    <div className="plan-detail">
+      <section className="plan-card competition-intro">
+        <div className="plan-card__header">
+          <div>
+            <h2>相关竞赛</h2>
+            <p className="plan-card__note">初试优先，只选证书能在 2026.09—2027.08 期间拿到、且对复试有实际帮助的项目。</p>
+          </div>
+          <Ink tone="red">排序：优先级 / 推荐指数</Ink>
+        </div>
+        <div className="plan-entry-stack">
+          <p className="plan-entry plan-entry--red">初试 ＞ 一切；省奖足够写简历，不为国奖牺牲初试复习。</p>
+          <p className="plan-entry plan-entry--black">以下赛程是常规周期，报名和证书时间每年可能调整，最终以赛事官方通知为准。</p>
+        </div>
+      </section>
+      <section className="competition-grid" aria-label="相关竞赛列表">
+        {competitionPlans.map((competition) => (
+          <article key={competition.id} className={`competition-card competition-card--${competition.priority === '必考虑' ? 'high' : 'optional'}`}>
+            <div className="competition-card__topline">
+              <span className="competition-card__rank">{competition.rank}</span>
+              <span className="competition-card__priority">{competition.priority}</span>
+            </div>
+            <div className="competition-card__title">
+              <div>
+                <h3>{competition.name}</h3>
+                <p>{competition.type}</p>
+              </div>
+              <div className="competition-card__score" aria-label={`推荐指数 ${competition.recommendation} 星`}>
+                {'★'.repeat(competition.recommendation)}<span>{'★'.repeat(5 - competition.recommendation)}</span>
+              </div>
+            </div>
+            <div className="competition-card__facts">
+              <div><span>时间</span><strong>{competition.schedule}</strong></div>
+              <div><span>形式</span><strong>{competition.format}</strong></div>
+              <div><span>范围 / 内容</span><strong>{competition.scope}</strong></div>
+              <div><span>难度</span><strong>{competition.difficulty}</strong></div>
+              <div><span>要求</span><strong>{competition.requirements}</strong></div>
+              <div><span>复试帮助</span><strong>{competition.interviewValue}</strong></div>
+              <div><span>备考影响</span><strong>{competition.studyImpact}</strong></div>
+            </div>
+            <p className="competition-card__advice"><span>我的建议</span>{competition.advice}</p>
+            <a className="competition-card__source" href={competition.source} target="_blank" rel="noreferrer">查看官方入口 ↗</a>
+          </article>
+        ))}
+      </section>
+    </div>
+  )
+}
+
 export function PlanPage(_props: PlanPageProps) {
   const [activeTab, setActiveTab] = useState<PlanTab>('math')
   const drafts = useAppStore((state) => state.planDrafts)
@@ -487,6 +539,8 @@ export function PlanPage(_props: PlanPageProps) {
 
       {activeTab === 'overview' ? (
         <OverviewView drafts={drafts} setDraft={setDraft} />
+      ) : activeTab === 'competitions' ? (
+        <CompetitionView />
       ) : activePlan ? (
         <SubjectView plan={activePlan} drafts={drafts} setDraft={setDraft} />
       ) : null}
